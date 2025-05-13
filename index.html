@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediaPipe / Three.js Shape Creator</title>
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="eb59c81c-27cb-4e1d-9e8c-bfbe70c48cd9"></script>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="Shape Creator Tutorial">
+  <meta name="description" content="create/control 3D shapes with hand gestures">
+
+</head>
+<body>
+
+  <video id="webcam" autoplay muted playsinline></video>
+  <canvas id="canvas"></canvas>
+  <div id="three-canvas"></div>
+  <div id="instructions">
+    Bring hands close and pinch to create a shape<br>
+     > Move hands apart to make the shape larger<br>
+    Hover over a shape / pinch to move it<br>
+    Perform a snap gesture (thumb to middle finger) to disintegrate all shapes like Thanos
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+</body>
+
+<script src="main.js"></script>
+
+</html>

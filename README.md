@@ -55,4 +55,5 @@ http://localhost:8000
 - Webcam access
 - WebGL support
 
-## Credits
+## Acknowledgments
+This project builds upon the excellent foundation provided by the [shape-creator-tutorial](https://github.com/collidingScopes/shape-creator-tutorial).

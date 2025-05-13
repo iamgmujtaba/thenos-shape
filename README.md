@@ -2,58 +2,68 @@
 
 An interactive web application that lets you create, manipulate, and dramatically disintegrate 3D shapes using hand gestures - inspired by Thanos' infinity gauntlet snap effect.
 
-![Thanos Snap Effect Demo](demo.gif)
-
 ## 🎮 Live Demo
+Experience the application instantly - only camera access required.
 
-Try it now: [Thanos Shape Creator](https://iamgmujtaba.github.io/thenos-shape/)
-
-## ✨ Key Features
-
-- **Gesture Controls**: Create and manipulate 3D shapes naturally with your hands
-- **Thanos Snap Effect**: Trigger a dramatic disintegration with a snap gesture
-- **Real-time Physics**: Fluid particle animations and shape transformations
-- **Visual Effects**: Camera shake, screen flash, and particle explosions
-- **Cross-Platform**: Works on desktop and mobile browsers
-
-## 🛠️ Technology Stack
-
-- **Three.js** - 3D graphics and animations
-- **MediaPipe** - Hand tracking and gesture recognition
-- **WebGL** - Hardware-accelerated rendering
-- **JavaScript** - Core application logic
-
-## 🚀 Quick Start
-
-1. Clone and enter the repository:
-```bash
-git clone https://github.com/iamgmujtaba/thenos-shape
-cd thenos-shape
-```
-
-2. Start a local server:
-```bash
-# Using Python (Mac/Linux)
-python3 -m http.server 8000
-```
-
-3. Open in your browser:
-```
-http://localhost:8000
-```
-
-## 💡 Usage
-
-1. **Create Shapes**: Pinch both hands together
-2. **Resize**: Move pinched hands apart/together
-3. **Move**: Pinch and drag shapes
-4. **Delete**: Perform a Thanos snap gesture
+[Try Live Demo](https://iamgmujtaba.github.io/thenos-shape/)
 
 ## 📋 Requirements
 
 - Modern web browser (Chrome/Firefox/Safari)
 - Webcam access
 - WebGL support
+
+## ✨ Key Features
+
+- **Gesture Controls**: Create and manipulate 3D shapes naturally with hand movements
+- **Thanos Snap Effect**: Trigger dramatic disintegration effects with snap gestures
+- **Real-time Physics**: Experience smooth particle animations and shape transformations
+- **Visual Effects**: Immersive camera shake, screen flash, and particle explosions
+- **Cross-Platform**: Full compatibility across desktop and mobile browsers
+
+## 🛠️ Technologies Used
+
+- [Three.js](https://threejs.org/) - 3D graphics and animations
+- [MediaPipe](https://mediapipe.dev/) - Hand tracking and gesture recognition
+- [WebGL](https://www.khronos.org/webgl/) - Hardware-accelerated rendering
+- JavaScript ES6+ - Core application logic
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Modern web browser (Chrome/Firefox/Safari)
+- Webcam access
+- WebGL support
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/iamgmujtaba/thenos-shape.git
+cd thenos-shape
+```
+
+2. Start a local development server:
+```bash
+# Using Python 3
+python3 -m http.server 8000
+```
+
+3. Access the application:
+```
+http://localhost:8000
+```
+
+## 💡 Usage Guide
+
+| Action | Gesture |
+|--------|---------|
+| Create Shapes | Pinch both hands together |
+| Resize | Move pinched hands apart/together |
+| Move | Pinch and drag shapes |
+| Delete | Perform snap gesture |
+
+
 
 ## Acknowledgments
 This project builds upon the excellent foundation provided by the [shape-creator-tutorial](https://github.com/collidingScopes/shape-creator-tutorial).

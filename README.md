@@ -1,6 +1,6 @@
 # Thanos Snap Effect with Hand Gestures | Interactive 3D Shape Creator
 
-An interactive web application that lets you create, manipulate, and dramatically disintegrate 3D shapes using hand gestures - inspired by Thanos' infinity gauntlet snap effect.
+An interactive web application that lets you create, manipulate, and dramatically disintegrate 3D shapes using hand gestures, inspired by Thanos' infinity gauntlet snap effect.
 
 ## Example
 ![SnapDemo](https://github.com/user-attachments/assets/0d6bd363-d44a-4fed-8c1d-3231e9d8918c)
